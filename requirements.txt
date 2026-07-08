@@ -1,0 +1,6 @@
+
+# Install Python packages
+pip3 install psutil pyudev
+
+# For Windows
+pip install pywin32 psutil
