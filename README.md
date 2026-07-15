@@ -53,20 +53,28 @@ Focuses on branding and personalizing your USB drives.
 sudo python3 usb_customizer_pro.py
 ## Installation & Dependencies
 git clone https://github.com/CyberXGuest/Ultimate-USB-Doctor.git
+
 cd Ultimate-USB-Doctor
 # Install system dependencies
 sudo apt update
-sudo apt install -y python3 python3-pip python3-tk python3-venv python3-dev dosfstools ntfs-3g exfatprogs e2fsprogs xfsprogs btrfs-progs f2fs-tools parted gdisk hdparm sdparm smartmontools util-linux udev usbutils lsof rsync p7zip-full unzip zip udisks2 udftools mtools
+sudo apt install -y python3 python3-pip python3-tk python3-venv python3-dev dosfstools ntfs-3g exfatprogs e2fsprogs 
+xfsprogs btrfs-progs f2fs-tools parted gdisk hdparm sdparm smartmontools util-linux udev usbutils lsof rsync p7zip-full unzip zip udisks2 udftools mtools
 
 # Install Python package
 pip3 install psutil
+
 chmod +x usb_doctor.py
+
 chmod +x usb_manager_ultra.py
+
 chmod +x usb_pro.py
+
 chmod +x usb_customizer_pro.py
+
 sudo python3 usb_doctor.py
 # Install system dependencies
 sudo apt update
+
 sudo apt install -y python3 python3-pip python3-tk python3-venv python3-dev dosfstools ntfs-3g exfatprogs e2fsprogs xfsprogs btrfs-progs f2fs-tools parted gdisk hdparm sdparm smartmontools util-linux udev usbutils lsof rsync p7zip-full unzip zip udisks2 udftools mtools
 
 # Install Python package
@@ -85,8 +93,13 @@ sudo apt install -y \
     udev usbutils lsof rsync p7zip-full unzip zip udisks2 udftools mtools
 
 git clone https://github.com/CyberXGuest/Ultimate-USB-Doctor.git
+
 cd Ultimate-USB-Doctor
+
 sudo apt update
+
 sudo apt install -y python3 python3-pip python3-tk
+
 pip3 install psutil
+
 sudo python3 usb_doctor.py
